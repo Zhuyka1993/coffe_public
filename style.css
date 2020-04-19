@@ -1,0 +1,538 @@
+
+.main-flex { 
+display: flex;
+flex-direction: column;
+width:1175px;
+margin: 0 auto;
+}
+
+a { 
+text-decoration: none; }
+
+.top-side__link { 
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 30px;
+}
+
+ .top-right__link { 
+ position: relative;
+
+ }
+
+ .top-side__written { 
+ color: black; 
+ margin-left: 10px;
+ margin-right: 10px;
+ font-size: 0.9em;
+  }
+
+ .tool-bar__search { 
+display: flex;
+flex-direction: row;
+align-items: center;
+top:10px;
+background: #e9e9e9;
+height: 75px;
+justify-content: space-between;
+flex-wrap: nowrap;
+  }
+
+ .ms { 
+ font-family: 'Courgette', bold;
+ font-size: 2em; 
+
+ }
+
+ .tool-bar { 
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ 
+ }
+
+ .navigation {
+   }
+
+ .search {
+ border: none;
+ width: 500px;
+ height: 38px;
+  }
+
+.fas {
+	display: relative;
+	margin-top: 7px;
+
+ }
+
+ .total-price__cart { 
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: flex-end;
+ 	width: 100px;     
+  }
+
+
+
+  .cart_top{
+    width: 20px;
+  }
+  
+  .main-cont__navigation { 
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px ;
+  margin-bottom: 15px;
+  width: 800px;
+  justify-content: space-between;
+     
+  }
+  
+  .content-panel__info{
+      display: flex;
+      flex-direction: row;
+       margin-top: 15px;
+       margin-bottom: 15px;
+       
+  }
+  
+  .ice-cream, .macarons, .cookies {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width:370px;
+  height: 530px;
+  margin-right: 30px;
+  }
+  
+  .ice-cream { 
+  background-image: url( pictures/ice.PNG);
+  }
+  
+  .ice_cream__description { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  justify-content: center;
+  }
+
+  .on_picture__info {
+  text-align: center;
+  width: 270px;
+  margin: 15px;
+  font-size: 12px; }
+
+  .on_picture__title { 
+  text-align: center; 
+  }
+  
+  .macarons_description { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:195px;
+  }
+  
+  .cookies_description{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 195px;
+  }
+  
+  .shop_button { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 135px;
+      height: 35px;
+      background: #fd9148;
+      border-radius: 20px;
+      color: white;
+  }
+  
+  .macarons { 
+  background-image: url( pictures/macarons.PNG);
+  }
+  
+  .cookies {
+  background-image: url( pictures/cookies.PNG);
+  margin-right: 0px;
+  }
+  
+  .second-content__info { 
+  display: flex;
+  flex-direction: row;
+margin-top: 15px;
+ margin-bottom: 15px;
+  }
+  
+  .time-left__panel {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  width: 770px;
+  height: 200px;
+  background-image: url( pictures/time.PNG);
+  margin-right: 15px;
+  }
+
+  .div_container__clock { 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  background: rgba(82, 83, 83, 0.6); /* Цвет фона */
+  width: 200px;
+  height: 70px; 
+  }
+
+  .time { 
+    color: #fff; /* Цвет текста */
+  width: 175px;
+  font-size: 33px; 
+  }
+
+  .days_n_hours {
+  display: flex;
+  align-content: space-between; 
+  width: 171px;
+  color: #fff; /* Цвет текста */
+  }
+
+  .save {
+  color: white;
+  }
+
+  .info { 
+  width: 43px;
+  font-size: 12px;
+  margin-bottom: 17px;
+  }
+  
+  .ideas__panel {
+  display: flex;
+  width: 370px;
+  height: 200px;
+  background-image: url( pictures/ideas.PNG);
+  margin-left: 15px;
+  }
+
+  .candy_buffet { 
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin-left: 35px;
+  margin-top: 80px;
+  justify-content: space-between;
+  }
+
+  .buf_candy{ 
+  color: white;
+  font-size: 0.8em; 
+  }
+
+  .idea {
+  color: white;
+  font-size: 1em; 
+  font-weight: bold;
+  }
+
+  .shop_by{
+  color: white;
+  font-size: 0.7em; 
+  font-weight: lighter;
+  margin-bottom: 30px;
+  }
+  
+  .second-nav-panel { 
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+       margin-bottom: 15px;
+  width: 1170px;
+  justify-content: space-between;
+  
+  }
+  
+  .left-side__navpanel{
+      display: flex;
+      width: 820px;
+      justify-content: center;
+  }
+  
+  .right-side__navpanel {
+      display:flex;
+      justify-content: space-between;
+      width:350px;
+  }
+  
+
+
+  .product-range__panel{ 
+  display: flex;
+  flex-direction: row;    
+  width: 1175px;
+ 
+  }
+  
+  .cake_picture { 
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  width: 370px;
+  height: 575px;
+  background: red;
+  background-image: url( pictures/cake.PNG);
+  margin-right: 30px;
+  }
+  
+  .top_side_written {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  height: 150px;
+  }
+
+  .deal, .save { 
+  color: white;
+  font-weight: bold;
+  }
+
+  
+  .omnomnom_cont { 
+  display:flex;
+  flex-direction: row;
+  width: 1170px;
+  height: 575px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+  .total_block__info { 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 770px; }
+  
+  .product {
+  display: flex;
+  flex-direction: row;
+  height: 280px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+  .under-picture__cart { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+  .cartimg { 
+  width: 15px;
+  }
+  
+  .lepeh { 
+  width: 170px;
+  height: 180px;
+  background: #f1f1f1;
+  }
+  
+  .coconut-macaron__picture { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:1175px;
+  padding-top: 75px;
+  }
+  
+  .coconut, .macaron { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 570px;
+  height: 290px;
+  align-items: center;
+   }
+
+  .coconut { 
+  background-image: url( pictures/coconut.PNG);
+  }
+
+  .macaron { 
+  background-image: url( pictures/mac.PNG);
+  }
+
+  .shop_written { 
+  color: white; }
+  
+  .box-collection__links { 
+  display: flex;
+  flex-direction: row;
+  width: 1175px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  }
+  
+  .box-collection { 
+  width:400px;
+  }
+  
+  .pop-product__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:350px;
+  }
+
+  .product-assort__container { 
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+  .left-part {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 770px;
+    justify-content: space-between;
+  }
+
+  .pict1 {
+  display: flex; 
+  flex-direction: column;
+  height: 275px;
+  width: 170px;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-content: flex-start;
+   }
+
+   .utopia_text { 
+   padding-bottom: 10px;
+    }
+
+   .right-part { 
+    display: flex;
+   background-image: url( pictures/brown_cake.PNG);
+   width: 370px;
+   height: 570px;
+  }
+
+  .right_part__content { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 180px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .blog-container {
+    width: 1175px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .blog-left__sife { 
+  width:600px;
+  }
+  
+  .bottom-picture__containeer{
+      width: 1170px;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 50px;
+  }
+  
+  .bottom-side__information{ 
+  display: flex;
+  flex-direction: row;
+  width: 1170px;
+  justify-content: space-between;
+  }
+  
+  .date_inform { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  height: 115px;
+  align-items: center;
+  }
+  
+  .letter_inform { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  height: 115px;
+  align-items: flex-start;  }
+
+  .contact_us__mail { 
+  width: 570px;
+  height: 60px;
+  background: #f1f1f1;
+  }
+  
+  .search_bottom { 
+    background: #f1f1f1;
+    width: 525px;
+    height: 60px;
+    border: none;
+   }
+
+  .bottom_side__nav {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 80px;
+      width: 1175px;
+      margin-top: 80px;
+      height: 110px;
+      background: #f1f1f1;
+      align-items: center;
+  }
+  
+  .links_menu { 
+   display: flex;
+   justify-content: space-between;
+   width: 930px;
+  }
+  
+  .icons_link{
+      display: flex;
+      justify-content: space-between;
+      width: 140px;
+      background: #f1f1f1;
+      height: 20px;
+  }
+
+  .socicon { 
+    height: 18px;
+    width: 18px;
+  }
+
+  .copyright { 
+    display: flex;
+    width: 1175px;
+    height: 60px;
+    background: #f1f1f1;
+  }

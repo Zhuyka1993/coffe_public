@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+
+
+.candy { 
+	font-family: 'Caveat', cursive;
+ }
+
+ .navigation { 
+ 	font-family: 'Kanit', sans-serif;
+  }
+
+
+
+.on_picture__title { 
+	font-family: 'Bellota', cursive;
+	color: white;
+	font-size: 2em;
+ }
+
+ .on_picture__info, .save { 
+ 	font-family: 'Nanum Gothic', sans-serif;
+ 	color: white;
+  }
+
+  .info { 
+  	font-family: 'Open Sans Condensed', sans-serif;
+   }
+
+   .navigation, .links_menu { 
+   color: black; 
+   }
+
+   .navigation:hover, .links_menu { 
+   color: #fd9148;
+   } 
+
+   .blog-left__sife, .blog-right__side {
+   font-family: 'Noto Sans KR', sans-serif; 
+   }
+
+   .price { 
+   font-weight: bold; }	 
+
+   
+  
