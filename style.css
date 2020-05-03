@@ -290,7 +290,6 @@ margin-top: 15px;
   align-content: center;
   width: 370px;
   height: 575px;
-  background: red;
   background-image: url( pictures/cake.PNG);
   margin-right: 30px;
   }
@@ -314,17 +313,15 @@ margin-top: 15px;
   .omnomnom_cont { 
   display:flex;
   flex-direction: row;
-  width: 1170px;
-  height: 575px;
   flex-wrap: wrap;
   justify-content: space-around;
   }
 
-  .total_block__info { 
+   .total_block__info { 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 770px; }
+  width: 770px; } 
   
   .product {
   display: flex;
@@ -503,7 +500,6 @@ margin-top: 15px;
   .bottom_side__nav {
       display: flex;
       justify-content: space-between;
-      margin-top: 80px;
       width: 1175px;
       margin-top: 80px;
       height: 110px;

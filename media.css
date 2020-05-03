@@ -1,0 +1,186 @@
+@media (min-width: 400px) and (max-width: 930px) {
+
+.main-flex { 
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+ }
+
+.tool-bar__search { 
+width: 700px; 
+}
+
+.main-cont__navigation { 
+flex-direction: column;
+width: 700px;
+align-items: center; 
+}
+
+.content-panel__info { 
+width: 100%;
+display: block;
+float: left;
+}
+
+.ice-cream { 
+margin: 0 auto;
+margin-bottom: 10px; 
+}
+
+.macarons {
+margin: 0 auto;
+margin-bottom: 10px;
+ }
+
+.cookies { 
+margin: 0 auto;
+ }
+
+.second-content__info { 
+width: 370px;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+
+.time-left__panel { 
+width: 370px;
+margin-bottom: 10px; 
+margin: 0 auto;
+}
+
+.left-side__navpanel { 
+margin: 0 auto;
+width: 370px; }
+
+
+.second-nav-panel { 
+flex-direction: column;
+width: 370px;
+margin: 0 auto; 
+}
+
+.right-side__navpanel { 
+width: 350px; 
+}
+
+.ideas__panel {
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.product-range__panel { 
+    display: flex;
+    width: 370px;
+    flex-direction: column;
+    height: 1650px;
+}
+
+.omnomnom_cont{ 
+	width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.top_side_written { 
+width: 370px;
+float: left;
+}
+
+.cake_picture { 
+
+}
+
+.product { 
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.pict1{ 
+	display: flex;
+    flex-direction: column;
+    height: 275px;
+    width: 170px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.total_block__info { 
+	width: auto;
+}
+
+.coconut-macaron__picture { 
+display: flex;
+flex-direction: column;
+width: 370px;
+height: 600px;
+}
+
+
+.coconut, .macaron { 
+    width: 370px;
+}
+
+.box-collection__links{ 
+width: 660px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.product-assort__container { 
+    display: flex;
+    width: 370px;
+    flex-direction: column;
+    height: 1650px;
+}
+
+.left-part { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 400px;
+    height: 100%;
+}
+.right-part { 
+    height: 100%;
+    margin-top: 10px;
+}
+
+.blog-container { 
+    width: 400px;
+}
+
+.bottom-picture__containeer { 
+        display: flex;
+        margin-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+        width: 700px;
+    }
+
+    .bottom-side__information{
+        height: 300px;
+        flex-direction: column;
+        width: 700px;
+        align-items: center;
+    }
+    .bottom_side__nav{ 
+    flex-direction: column;
+    width: 570px;
+    height: 150px;
+    }
+    .links_menu{ 
+        flex-direction: column;
+        width: 200px;
+    }
+    .copyright{ 
+        width: 570px;
+    }
+}
+
+
