@@ -108,8 +108,7 @@ flex-wrap: nowrap;
   }
   
   .ice-cream { 
-  background-image: url( ../pictures/ice.png);
- 
+  background-image: url( pictures/ice.png);
   }
   
   .ice_cream__description { 
@@ -158,11 +157,11 @@ flex-wrap: nowrap;
   }
   
   .macarons { 
-  background-image: url( pictures/macarons.PNG);
+  background-image: url( pictures/macarons.png);
   }
   
   .cookies {
-  background-image: url( pictures/cookies.PNG);
+  background-image: url( pictures/cookies.png);
   margin-right: 0px;
   }
   
@@ -180,7 +179,7 @@ margin-top: 15px;
   flex-direction: column;
   width: 770px;
   height: 200px;
-  background-image: url( pictures/time.PNG);
+  background-image: url( pictures/time.png);
   margin-right: 15px;
   }
 
@@ -223,7 +222,7 @@ margin-top: 15px;
   display: flex;
   width: 370px;
   height: 200px;
-  background-image: url( pictures/ideas.PNG);
+  background-image: url( pictures/ideas.png);
   margin-left: 15px;
   }
 
@@ -291,7 +290,7 @@ margin-top: 15px;
   align-content: center;
   width: 370px;
   height: 575px;
-  background-image: url( pictures/cake.PNG);
+  background-image: url( pictures/cake.png);
   margin-right: 30px;
   }
   
@@ -366,11 +365,11 @@ margin-top: 15px;
    }
 
   .coconut { 
-  background-image: url( pictures/coconut.PNG);
+  background-image: url( pictures/coconut.png);
   }
 
   .macaron { 
-  background-image: url( pictures/mac.PNG);
+  background-image: url( pictures/mac.png);
   }
 
   .shop_written { 
@@ -426,7 +425,7 @@ margin-top: 15px;
 
    .right-part { 
     display: flex;
-   background-image: url( pictures/brown_cake.PNG);
+   background-image: url( pictures/brown_cake.png);
    width: 370px;
    height: 570px;
   }
