@@ -108,10 +108,8 @@ flex-wrap: nowrap;
   }
   
   .ice-cream { 
-  background-image: url( pictures/ice.PNG);
-  background-image: url( ./pictures/ice.PNG);
-  background-image: url( ../pictures/ice.PNG);
-  background-image: url("pictures/ice.PNG");
+  background-image: url( /pictures/ice.PNG);
+ 
   }
   
   .ice_cream__description { 
