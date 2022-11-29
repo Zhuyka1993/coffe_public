@@ -52,6 +52,9 @@ flex-wrap: nowrap;
  
  }
 
+ .navigation {
+   }
+
  .search {
  border: none;
  width: 500px;
@@ -158,7 +161,7 @@ flex-wrap: nowrap;
   }
   
   .cookies {
-  background-image: url( pictures/сookies.png);
+  background-image: url( pictures/cookies.png);
   margin-right: 0px;
   }
   
