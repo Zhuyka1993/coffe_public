@@ -126,9 +126,13 @@ height: 600px;
 }
 
 .box-collection__links{ 
-width: 660px;
+width: 600px;
 margin-left: 20px;
 margin-right: 20px;
+}
+
+.box-collection { 
+    width: 200px;
 }
 
 .product-assort__container { 
