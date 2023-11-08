@@ -2,7 +2,7 @@
 .main-flex { 
 display: flex;
 flex-direction: column;
-width:1175px;
+width:100%;
 margin: 0 auto;
 }
 
