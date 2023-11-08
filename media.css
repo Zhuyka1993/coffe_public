@@ -1,4 +1,5 @@
 @media (min-width: 400px) and (max-width: 1080px) {
+   
 
 .main-flex { 
 	flex-direction: column;
@@ -170,12 +171,12 @@ margin-right: 20px;
     .bottom-side__information{
         height: 300px;
         flex-direction: column;
-        width: 700px;
+        width: 500px;
         align-items: center;
     }
     .bottom_side__nav{ 
     flex-direction: column;
-    width: 570px;
+    width: 500px;
     height: 150px;
     }
     .links_menu{ 
@@ -183,7 +184,7 @@ margin-right: 20px;
         width: 200px;
     }
     .copyright{ 
-        width: 570px;
+        width: 500px;
     }
 }
 
